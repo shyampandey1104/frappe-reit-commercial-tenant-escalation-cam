@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include reit_commercial_cam *.css
+recursive-include reit_commercial_cam *.csv
+recursive-include reit_commercial_cam *.html
+recursive-include reit_commercial_cam *.ico
+recursive-include reit_commercial_cam *.js
+recursive-include reit_commercial_cam *.json
+recursive-include reit_commercial_cam *.md
+recursive-include reit_commercial_cam *.png
+recursive-include reit_commercial_cam *.py
+recursive-include reit_commercial_cam *.svg
+recursive-include reit_commercial_cam *.txt
+recursive-exclude reit_commercial_cam *.pyc
